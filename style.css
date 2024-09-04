@@ -1,8 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
+/* Mengatur jarak antara judul dan card */
+#contact {
+  padding: 40px 0;
+}
 
 
+  .section-title {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    cursor: pointer;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  
 body {
     color: #333;
     margin: 0;
@@ -78,7 +115,7 @@ p{
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
-    color: rgb(183, 180, 180);
+    color: rgb(252, 249, 249);
 }
 
 .brand h1{
